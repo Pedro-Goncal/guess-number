@@ -1,0 +1,66 @@
+#number-guess, #result, #history {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#history {
+    margin-top: 16px;
+}
+  
+.banner {
+    margin-top: 20px;
+    color: #fdc302;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.tries-div {
+    margin-top: 10px;
+    font-family: sans-serif;
+    
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1rem 2.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    transition-duration: 0.1s;
+    cursor: grab;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+    background-color: #555555;
+    color: white;
+  }
+ 
+  .btn::after {
+    transform: scalex(1.4) scaleY(1.6);
+  }
+    
+  
+  .btn:active {
+    transform: translateY(-2px) scale(.99);
+    cursor: grabbing;
+  }
+
+/*Remove arrow from default number input field
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
