@@ -21,7 +21,7 @@ function triesCounter() {
   if(guessesLeft > 0){
   document.getElementById("tries").innerHTML = `You have ${guessesLeft} guesses left`;
   } else {
-  document.getElementById("tries").innerHTML = `Too bad, please try`;
+  document.getElementById("tries").innerHTML = `Too bad, better luck next time`;
 
   setTimeout(() => {
     initGame()
